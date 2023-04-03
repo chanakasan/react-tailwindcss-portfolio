@@ -1,10 +1,29 @@
+const para1 = `
+My name is Chanaka Abeysinghe. I am a Full-Stack Developer,
+based in Colombo, Sri Lanka (GMT +5.5).
+I started as a Rails developer in 2015 on the Upwork platform (previously oDesk). 
+I became a full-stack developer in 2016 when I started doing ReactJS work for my clients.
+`
+const para2 = `
+Over the last 7+ years I have helped to build several applications in various fields
+including customer support apps, digital signage systems and ecommerce platforms. 
+`
+const para3 = `
+Currently I specialize in Ruby on Rails and ReactJS.
+And I strive to build software that is scalable and easy to maintain.
+`
+
 export const aboutMeData = [
 	{
 		id: 1,
-		bio: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+		bio: para1,
 	},
 	{
 		id: 2,
-		bio: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+		bio: para2, 
+	},
+	{
+		id: 2,
+		bio: para3, 
 	},
 ];
